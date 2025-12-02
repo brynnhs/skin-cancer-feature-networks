@@ -3,7 +3,7 @@
 ## Brynn – Data, MGM, Part of Writing
 
 ### Setup & Infrastructure
-- [ ] Set up the project repo structure (skin-cancer-feature-networks) and basic src/ layout
+- [x] Set up the project repo structure (skin-cancer-feature-networks) and basic src/ layout
 
 ### Data Processing
 - [ ] Load the PAD-UFES-20 dataset and perform data cleaning / preprocessing

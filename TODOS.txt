@@ -28,6 +28,15 @@
 - [ ] Contribute to Discussion and Future work (first pass)
 - [ ] Do a final editorial pass on the full report (flow, consistency, typos)
 
+### Presentation / Slides
+- [ ] Draft slides for: Project Goal + Motivation
+- [ ] Draft slides for: Dataset Summary
+- [ ] Draft slides for: MGM Results (graphs + interpretation)
+- [ ] Draft slides for: Benign vs Malignant comparison (MGM side)
+- [ ] Draft slides for: Discussion (first pass)
+- [ ] Prepare notes for your speaking sections
+
+
 ---
 
 ## Stephane – Causal Models, Bootstrap, Figures, Part of Writing
@@ -57,4 +66,12 @@
   - [ ] Final network plots (benign/malignant, MGM + causal)
   - [ ] Stability / difference plots
 - [ ] Ensure captions and formatting are ready for the report
+
+### Presentation / Slides
+- [ ] Draft slides for: Project Goal + Motivation
+- [ ] Draft slides for: Dataset Summary
+- [ ] Draft slides for: Causal Results (PC-Stable, GES, NOTEARS graphs + interpretation)
+- [ ] Draft slides for: Benign vs Malignant comparison (causal side)
+- [ ] Draft slides for: Discussion (first pass)
+- [ ] Prepare notes for your speaking sections
 

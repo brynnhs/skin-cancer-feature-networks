@@ -30,3 +30,4 @@ statsmodels>=0.14.0
 # Optional: for better performance
 numba>=0.57.0
 
+Python version: 3.10.15

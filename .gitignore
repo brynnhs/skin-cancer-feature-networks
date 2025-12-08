@@ -30,6 +30,7 @@ ENV/
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
+pad-env/*
 # IDE
 .vscode/
 .idea/

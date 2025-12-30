@@ -45,6 +45,9 @@ data/interim/*
 data/processed/*
 !data/processed/.gitkeep
 
+scripts/*
+
+
 # Results (keep structure, ignore large outputs)
 results/**/*
 !results/**/.gitkeep

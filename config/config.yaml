@@ -1,0 +1,51 @@
+# Configuration for PAD-UFES-20 Network Analysis
+
+data:
+  input_csv: "data/processed/all_processed.csv"
+  diagnosis_col: "diagnostic"
+  id_col: ["patient_id", "lesion_id", "img_id"]
+
+labels:
+  malignant: ["mel", "bcc", "scc"]  # Lowercase after cleaning
+  benign: []  # Everything else (ack, nev, sek, etc.)
+
+variables:
+  # If empty, will infer from data
+  include: []
+  # Placeholder - will be populated in Phase 2
+  types:
+    continuous: []
+    categorical: []
+    ordinal: []
+    binary: []
+
+missing:
+  mode: "complete_case"  # Options: "complete_case", "simple_impute"
+
+seeds:
+  main: 42
+  bootstrap: 12345
+  stars: 67890
+
+# Hyperparameters (for later phases)
+mgm:
+  lambda_min: 0.01
+  lambda_max: 0.5
+  n_lambda: 20  # Reduced from 50 for faster computation
+
+stars:
+  n_subsamples: 20  # Reduced from 100 for faster computation
+  subsample_ratio: 0.8
+  stability_threshold: 0.05
+
+bootstrap:
+  n_boot: 100  # Reduced from 1000 for faster computation (can increase for final analysis)
+  consensus_threshold: 0.7
+
+causal:
+  alpha: 0.05  # For PC-Stable
+  max_cond_set_size: 5
+  bootstrap:
+    n_boot: 50  # Bootstrap samples for causal discovery (can increase to 100)
+    consensus_threshold: 0.7  # Threshold for consensus edges
+
